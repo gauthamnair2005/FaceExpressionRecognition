@@ -255,9 +255,9 @@ def FER_live_cam():
 
             result.write(frame)
         
-            cv2.namedWindow('Facial Expression Mini-Project by Dhruv and Gautham', cv2.WINDOW_NORMAL)
-            cv2.setWindowProperty('Facial Expression Mini-Project by Dhruv and Gautham', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
-            cv2.imshow('Facial Expression Mini-Project by Dhruv and Gautham', frame)
+            cv2.namedWindow('Facial Expression Mini-Project by Gautham', cv2.WINDOW_NORMAL)
+            cv2.setWindowProperty('Facial Expression Mini-Project by Gautham', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+            cv2.imshow('Facial Expression Mini-Project by Gautham', frame)
             if cv2.waitKey(1) & 0xFF == 27:
                 break
         else:
@@ -272,7 +272,7 @@ def FER_live_cam():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    print("Facial Expression Recognition Mini-Project by Dhruv Srivastava and Gautham Nair")
+    print("Facial Expression Recognition Mini-Project by Gautham Nair")
     print("Starting... (Press Ctrl + C to stop or press ESC to stop the recognition process)")
     FER_live_cam()
     print("Saved Video...")
